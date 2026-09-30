@@ -1,11 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { getUrl } from "../utils/url";
 ---
 
 <Layout>
   <main>
     <div class="container">
-      <img src="/soverr-logo-white.svg" alt="Soverr Logo" class="logo" />
+      <img src={getUrl('/soverr-logo-white.svg')} alt="Soverr Logo" class="logo" />
       <h1>Soverr</h1>
       <h2>Notes on practical privacy and digital sovereignty.</h2>
       <p>
