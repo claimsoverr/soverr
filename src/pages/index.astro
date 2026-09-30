@@ -6,13 +6,19 @@ import { getUrl } from "../utils/url";
 <Layout>
   <main>
     <div class="container">
-      <img src={getUrl('/soverr-logo-white.svg')} alt="Soverr Logo" class="logo" />
+      <img
+        src={getUrl("/soverr-logo-white.svg")}
+        alt="Soverr Logo"
+        class="logo"
+      />
       <h1>Soverr</h1>
-      <h2>Notes on practical privacy and digital sovereignty.</h2>
+      <h2>
+        A space dedicated to exploring practical privacy and digital
+        sovereignty.
+      </h2>
       <p>
-        A space dedicated to exploring how we can take back control of our
-        digital lives. Here you'll find simple guides, ideas, and practical tips
-        to make self-custody easier and more approachable for everyday use.
+        Providing simple guides, ideas, and tools to help individuals reclaim
+        and command their digital lives.
       </p>
       <!-- <a href="#" class="cta-button">Start reading</a> -->
     </div>
@@ -21,6 +27,7 @@ import { getUrl } from "../utils/url";
 
 <style>
   main {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
