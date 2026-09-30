@@ -8,16 +8,16 @@
 
 ## Quick Reference
 
-| Element         | Value                                                        |
-| --------------- | ------------------------------------------------------------ |
-| Primary Color   | #09090B                                                      |
-| Secondary Color | #27272A                                                      |
-| Accent Color    | #00F0FF                                                      |
-| Heading Font    | Geist, sans-serif                                            |
-| Body Font       | Geist, sans-serif                                            |
-| Monospace Font  | Geist Mono, monospace                                        |
-| Core Voice      | Deep Expertise, Pragmatic, Empowering, Ego-Free & Easygoing  |
-| Aesthetic       | Minimalist Modern Monochrome (High Contrast + Stark Accent)  |
+| Element         | Value                                                       |
+| --------------- | ----------------------------------------------------------- |
+| Primary Color   | #09090B                                                     |
+| Secondary Color | #27272A                                                     |
+| Accent Color    | #00F0FF                                                     |
+| Heading Font    | Geist, sans-serif                                           |
+| Body Font       | Geist, sans-serif                                           |
+| Monospace Font  | Geist Mono, monospace                                       |
+| Core Voice      | Deep Expertise, Pragmatic, Empowering, Ego-Free & Easygoing |
+| Aesthetic       | Minimalist Modern Monochrome (High Contrast + Stark Accent) |
 
 ---
 
@@ -185,12 +185,12 @@ The Soverr logo is purely a symbol—a standalone geometric shape with no embedd
 
 ### 5.3 Tone by Context
 
-| Context                        | Tone Stance                        | Example                                                                                                  |
-| ------------------------------ | ---------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Tool / Dashboard Interface** | Functional, sparse, immediate      | "Keys generated locally in your browser memory. Nothing leaves your device."                             |
+| Context                        | Tone Stance                        | Example                                                                                                       |
+| ------------------------------ | ---------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Tool / Dashboard Interface** | Functional, sparse, immediate      | "Keys generated locally in your browser memory. Nothing leaves your device."                                  |
 | **Educational Guides & Tips**  | Plain, structured, step-by-step    | "Tip: Switch to an open-source password manager today and stop worrying about reusing the same old password." |
-| **Security Advisories**        | Factual, calm, remediation-focused | "Notice: An issue was identified in v1.2. Update to v1.3 using the one-click script below."              |
-| **Community / Product News**   | Direct, clear, hype-free           | "New Workflow: 3 simple automations to de-clutter your notifications and reclaim your focus."            |
+| **Security Advisories**        | Factual, calm, remediation-focused | "Notice: An issue was identified in v1.2. Update to v1.3 using the one-click script below."                   |
+| **Community / Product News**   | Direct, clear, hype-free           | "New Workflow: 3 simple automations to de-clutter your notifications and reclaim your focus."                 |
 
 ### 5.4 Vocabulary & Terminology Standards
 
@@ -278,7 +278,7 @@ This brand specification acts as the single source of truth for design tokens.
 To regenerate downstream tokens (`assets/design-tokens.json` and `assets/design-tokens.css`):
 
 ```bash
-node /var/home/rumen/.gemini/config/skills/brand/scripts/sync-brand-to-tokens.cjs
+node .agents/skills/brand/scripts/sync-brand-to-tokens.cjs
 ```
 
 ---
@@ -287,5 +287,5 @@ node /var/home/rumen/.gemini/config/skills/brand/scripts/sync-brand-to-tokens.cj
 
 | Version | Date       | Author    | Description                                                                                                                                                                                   |
 | ------- | ---------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.1.0   | 2026-09-30 | Core Team | Reframed Core Pillars to reflect 'Step-by-Step Sovereignty' and peace of mind, updated Value Proposition, expanded vocabulary, and introduced the 'Ego-Free & Easygoing' voice trait |
+| 1.1.0   | 2026-09-30 | Core Team | Reframed Core Pillars to reflect 'Step-by-Step Sovereignty' and peace of mind, updated Value Proposition, expanded vocabulary, and introduced the 'Ego-Free & Easygoing' voice trait          |
 | 1.0.0   | 2026-09-30 | Core Team | Initial brand specification for Soverr: core mission, domain, minimalist monochrome visual identity, typography system, abstract semantic states, and pragmatic, plainspoken voice principles |
