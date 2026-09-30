@@ -1,0 +1,76 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <main>
+    <div class="container">
+      <img src="/soverr-logo-white.svg" alt="Soverr Logo" class="logo" />
+      <h1>Soverr</h1>
+      <h2>Notes on practical privacy and digital sovereignty.</h2>
+      <p>
+        A space dedicated to exploring how we can take back control of our
+        digital lives. Here you'll find simple guides, ideas, and practical tips
+        to make self-custody easier and more approachable for everyday use.
+      </p>
+      <!-- <a href="#" class="cta-button">Start reading</a> -->
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+  }
+  .container {
+    max-width: 600px;
+  }
+  .logo {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+  h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #e4e4e7;
+    margin: 1.25rem 0;
+    letter-spacing: -0.02em;
+  }
+  p {
+    font-size: 1.125rem;
+    color: #a1a1aa;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: #00f0ff;
+    color: #09090b;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  .cta-button:hover {
+    background-color: #38bdf8;
+    box-shadow: 0 0 16px rgba(0, 240, 255, 0.3);
+  }
+  .cta-button:active {
+    outline: 2px solid #ffffff;
+  }
+</style>
